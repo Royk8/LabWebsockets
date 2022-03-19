@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div>
+        <div class="bar" style="display: flex;">
+            <button id="resetButton" class="button">
+                Borrar
+            </button>
+            <div style="width: 50px;">
+            </div>
+            <button id="whiteButton" class="button">
+                Blanco
+            </button>
+            <button id="yellowButton" class="button" style="background-color: yellow">
+                Amarillo
+            </button>
+            <button id="redButton"  class="button" style="background-color: red; color: white;">
+                Rojo
+            </button>
+            <button id="greenButton"  class="button" style="background-color: green">
+                Verde
+            </button>
+            <button id="blueButton"  class="button" style="background-color: blue; color: white;">
+                Azul
+            </button>
+            <button id="downloadButton" class="button" style="margin-left: auto;">
+                Descargar
+            </button>
+        </div>
+        <canvas id="drawing"></canvas>
+    </div>
+    
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/index.js"></script>
+    
+</body>
+</html>
